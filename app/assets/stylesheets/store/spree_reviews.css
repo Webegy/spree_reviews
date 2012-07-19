@@ -1,14 +1,14 @@
 #reviews div.header {
   font-size: 12pt;
   font-weight: bold;
-  border-bottom: 1px #2222aa dashed;
+  border-top: 1px solid #D9D9DB;
   margin-top: 10px;
   margin-bottom: 10px;
 }
 
 #reviews div.review {
-  border-bottom: 1px #2222aa dashed;
-  margin-bottom: 10px;
+  border-top: 1px solid #D9D9DB;
+  padding: 10px 0 10px 0;
 }
 
 #reviews div.review span.title {
@@ -46,9 +46,31 @@
   margin: 1em 0;
 }
 
+.infos {
+  float: right;
+  margin-top: -10px;
+  color: grey;
+}
+
+a.button {
+  margin-top: 20px;
+}
+
 /*
  * jQuery.Rating Plugin CSS - http://www.fyneworks.com/jquery/star-rating/
  ***************************************************************************/
+
+span.reviews-rating{
+  float: right;
+}
+
+div.ratings {
+  position: relative;
+}
+
+.ratings-basedupon {
+  color: grey;
+}
 
 div.rating-cancel, div.star-rating {
   float: left;

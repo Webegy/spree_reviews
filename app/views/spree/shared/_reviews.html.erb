@@ -1,9 +1,9 @@
-<div id="reviews">
-  <h6 class="product-section-title"><%= t(:reviews) %></h6>
+<div id="reviews" class="columns sixteen alpha">
+  <%= render :partial => 'spree/shared/rating', :locals => {:product => @product, :review => 0} unless @product.reviews.approved.count == 0 %>
+  <h5 class="product-section-title"><%= t(:reviews) %></h5>
   <% if @product.reviews.approved.count == 0%>
   <p class="reviews-none"><%=t('no_reviews_available')%></p>
   <% else %>
-	  <%= render :partial => 'spree/shared/rating', :locals => {:product => @product, :review => 0} %>
 	  <% for review in @product.reviews.approval_filter %>
 	    <%= render :partial => 'spree/shared/review', :locals => {:review => review} %>
 	  <% end %>

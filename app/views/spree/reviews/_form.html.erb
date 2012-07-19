@@ -2,22 +2,22 @@
   <%= render "spree/shared/error_messages", :target => review %>
 
   <p class="review_rating_field">
-    <%= f.label :rating %> <span class="required">*</span><br />
+    <%= f.label t(:rating) %> <span class="required">*</span><br />
     <%= render :partial => "spree/reviews/stars", :locals => {:stars => review.rating, :edit_enabled => true} %>
   </p>
 
   <p class="review_name_field">
-    <%= f.label :name %> <span class="required">*</span><br />
+    <%= f.label t(:name) %> <span class="required">*</span><br />
     <%= f.text_field :name, :maxlength => "255", :size => "50" %>
   </p>
 
   <p class="review_title_field">
-    <%= f.label :title %><br />
+    <%= f.label t(:title) %><br />
     <%= f.text_field :title, :maxlength => "255", :size => "50" %>
   </p>
   
   <p class="review_review_field">
-    <%= f.label :review %> <span class="required">*</span><br />
+    <%= f.label t(:your_review) %> <span class="required">*</span><br />
     <%= f.text_area :review, :wrap => "virtual", :rows => "10", :cols => "50" %>
   </p>
 

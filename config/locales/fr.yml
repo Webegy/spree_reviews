@@ -1,0 +1,37 @@
+fr:
+  activerecord:
+    models:
+      review:
+        one: "un commentaires"
+        other: "%{count} commentaires"
+
+  name: "Votre nom"
+  title: "Titre"
+  your_review: "Votre commentaire"
+  rating: "Note"
+  write_your_own_review: "Ecrivez un commentaire"
+  review_management: "Gestion des commentaires"
+  back_reviews: "Revenir aux commentaires"
+  are_you_sure_review: "Êtes-vous sûr de vouloir supprimer ce commentaire ?"
+  info_approve_review: "Commentaire approuvé"
+  error_approve_review: "Erreur lors de la validation du commentaire"
+  approve: "Approuvé"
+  leave_us_a_review: "Donnez votre avis sur "
+  review_successfully_sumbitted: "Avis soumis à modération"
+  rating: "Note"
+  submit_your_review: "Valider votre commentaire"
+  spree_reviews:
+    review_settings: "Options des commentaires"
+    manage_review_settings: "Controller l'affichage des commentaires"
+    preview_size: "Nombre de commentaires à afficher"
+    include_unapproved: "Lister les commentaires non approuvés"
+  no_reviews_available: "Aucun commentaire n'a été posté sur ce produit pour le moment."
+  reviews: "Commentaires"
+  review_successfully_submitted: "Commentaire posté avec succès"
+  average_customer_rating: "Note moyenne"
+  based_upon: "Basé sur"
+  review:
+    one: "un commentaires"
+    other: "%{count} commentaires"
+  leave_us_a_review_for: Donnez nous votre avis sur "%{name}"
+  
